@@ -1,0 +1,94 @@
+*{
+  padding: 0;
+  border: 0;
+  outline: 0;
+  margin: 0;
+  font-family: tahoma;
+}
+#bar{
+  height: 50px;
+  background-color:gold;;
+}
+#in-bar{
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+#search{
+  width: 400px;
+  height: 50px;
+}
+#pictures{
+  min-width: 100%;
+  min-height: 500px;
+  border: black solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  background-color: blue;
+}
+#profilePic{
+ min-width: 25%;
+ min-height: 125px;
+ align-items: center;
+}
+#coverPicButton {
+  display: flex;
+  align-self: flex-end;
+}
+#cover_pic{
+ position: relative;
+ top: 0;
+ left: 0;
+ border: black solid;
+}
+#profile_pic{
+  position: absolute;
+  width: 150px;
+  margin-top: -200px;
+  border-radius: 50%;
+}
+#main{
+display: flex;
+flex-direction: row;
+border: black solid;
+}
+#side{
+display: flex;
+flex-direction: column;
+min-width: 50%;
+min-height: 100vh;
+border: black solid;
+}
+#posts{
+min-width: 50%;
+min-height: 100vh;
+border: black solid;
+}
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+  background-color:blue;
+  color: #0000FF;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  height: 50%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 100px;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .collapsible:hover {
+  background-color:blue;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #0000FF;
+}
